@@ -13,7 +13,7 @@ pool:
   name: rhtap-testing
 
 container:
-  image: quay.io/redhat-appstudio/rhtap-task-runner:latest
+  image: quay.io/redhat-user-workloads/rhtap-shared-team-tenant/rhtap-task-runner@sha256:49432b305209d904971f39fdd53d2be8399550c6ebfee852ad25071562158696
   options: --privileged
 
 # Using 'tssc' variable group by default
